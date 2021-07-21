@@ -185,7 +185,7 @@ export function safeDateRangeFormat(startDate, endDate, props) {
 
 // ** Date Setters **
 
-export function setTime(date, { hour = 11, minute = 59, second = 0 }) {
+export function setTime(date, { hour = 23, minute = 59, second = 0 }) {
   return setHours(setMinutes(setSeconds(date, second), minute), hour);
 }
 
